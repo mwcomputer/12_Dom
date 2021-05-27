@@ -30,6 +30,14 @@ document.getElementById("erster Text").innerText ="hallo1";
 document.getElementById/"zweiterText").innerText ="hallo2;
 
 /*ul/li */
+/* Dom suche mit TagNamen */
+console.log(document.getElementByTagName("li"))
+console.log(document.getElementByTagName("li")[0])
+console.log(document.getElementByTagName("§li")[0].innerText)
+
+/* Neues <li></li> Ellement anlegen*/
+let newLi = document.createElement("lo");
+console.log(newLi);
 
 
 
@@ -47,3 +55,5 @@ console.log(document.body.children[0].innerHTML);
 document.body.children[1].innerHTML = "Neuer Text";
 console.log(document.body.children[1].innerHTML);
 // ändert den INHALT des <p> - Elements an  --> "Neuer Text";
+
+
