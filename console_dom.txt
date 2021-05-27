@@ -12,6 +12,16 @@ console.log(document.body);
 console.log(document.body.children);
 // zeigt die Kinder (h1,p) von <body></body> als Array an
 
+
+
+/* Neuen Text setzen */
+document.getElementById("erster Text").innerText ="hallo1";
+document.getElementById/"zweiterText").innerText ="hallo2;
+
+/*ul/li */
+
+
+
 console.log(document.body.children[0])
 console.log(document.body.children[1])
 // zeigt das erste/zweite Element (h1) im Array an (Index 0)
