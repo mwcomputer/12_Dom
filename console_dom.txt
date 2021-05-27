@@ -3,6 +3,17 @@
     Datei ist nicht mit dem HTML-Dokument verbunden
 */
 
+
+/* Webseite ergänzen um 2. p + ul/li*/
+/* p-Tags mit id ergänzen /erstenText / zweiterText*/
+
+*/ DOM-suche mit IDs */
+console.log(getElementById("ersterText"))
+console.log(getElementById("ersterText").innerText)
+
+console.log(getElementById("zweiterText"))
+console.log(getElementById("zweiterText).innerText)
+
 console.log(document);
 // zeigt die gesamte Seitenstruktur an (document als /root)
 
